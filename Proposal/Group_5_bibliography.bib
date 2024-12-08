@@ -1,0 +1,78 @@
+@Article{jimaging9060122,
+AUTHOR = {Salvi, Davide and Liu, Honggu and Mandelli, Sara and Bestagini, Paolo and Zhou, Wenbo and Zhang, Weiming and Tubaro, Stefano},
+TITLE = {A Robust Approach to Multimodal Deepfake Detection},
+JOURNAL = {Journal of Imaging},
+VOLUME = {9},
+YEAR = {2023},
+NUMBER = {1},
+ARTICLE-NUMBER = {122},
+URL = {https://www.mdpi.com/2313-433X/9/6/122},
+PubMedID = {37367470},
+ISSN = {2313-433X},
+ABSTRACT = {The widespread use of deep learning techniques for creating realistic synthetic media, commonly known as deepfakes, poses a significant threat to individuals, organizations, and society. As the malicious use of these data could lead to unpleasant situations, it is becoming crucial to distinguish between authentic and fake media. Nonetheless, though deepfake generation systems can create convincing images and audio, they may struggle to maintain consistency across different data modalities, such as producing a realistic video sequence where both visual frames and speech are fake and consistent one with the other. Moreover, these systems may not accurately reproduce semantic and timely accurate aspects. All these elements can be exploited to perform a robust detection of fake content. In this paper, we propose a novel approach for detecting deepfake video sequences by leveraging data multimodality. Our method extracts audio-visual features from the input video over time and analyzes them using time-aware neural networks. We exploit both the video and audio modalities to leverage the inconsistencies between and within them, enhancing the final detection performance. The peculiarity of the proposed method is that we never train on multimodal deepfake data, but on disjoint monomodal datasets which contain visual-only or audio-only deepfakes. This frees us from leveraging multimodal datasets during training, which is desirable given their lack in the literature. Moreover, at test time, it allows to evaluate the robustness of our proposed detector on unseen multimodal deepfakes. We test different fusion techniques between data modalities and investigate which one leads to more robust predictions by the developed detectors. Our results indicate that a multimodal approach is more effective than a monomodal one, even if trained on disjoint monomodal datasets.},
+DOI = {10.3390/jimaging9060122}
+}
+
+@misc{khalid2022fakeavceleb,
+      title={FakeAVCeleb: A Novel Audio-Video Multimodal Deepfake Dataset}, 
+      author={Hasam Khalid and Shahroz Tariq and Minha Kim and Simon S. Woo},
+      year={2022},
+      eprint={2108.05080},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@inproceedings{khalid2021evaluation,
+author = {Khalid, Hasam and Kim, Minha and Tariq, Shahroz and Woo, Simon S.},
+title = {Evaluation of an Audio-Video Multimodal Deepfake Dataset using Unimodal and Multimodal Detectors},
+year = {2021},
+isbn = {9781450386821},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3476099.3484315},
+doi = {10.1145/3476099.3484315},
+abstract = {Significant advancements made in the generation of deepfakes have caused security and privacy issues. Attackers can easily impersonate a person's identity in an image by replacing his face with the target person's face. Moreover, a new domain of cloning human voices using deep-learning technologies is also emerging. Now, an attacker can generate realistic cloned voices of humans using only a few seconds of audio of the target person. With the emerging threat of potential harm deepfakes can cause, researchers have proposed deepfake detection methods. However, they only focus on detecting a single modality, i.e., either video or audio. On the other hand, to develop a good deepfake detector that can cope with the recent advancements in deepfake generation, we need to have a detector that can detect deepfakes of multiple modalities, i.e., videos and audios. To build such a detector, we need a dataset that contains video and respective audio deepfakes. We were able to find a most recent deepfake dataset, Audio-Video Multimodal Deepfake Detection Dataset (FakeAVCeleb), that contains not only deepfake videos but synthesized fake audios as well. We used this multimodal deepfake dataset and performed detailed baseline experiments using state-of-the-art unimodal, ensemble-based, and multimodal detection methods to evaluate it. We conclude through detailed experimentation that unimodals, addressing only a single modality, video or audio, do not perform well compared to ensemble-based methods. Whereas purely multimodal-based baselines provide the worst performance.},
+booktitle = {Proceedings of the 1st Workshop on Synthetic Multimedia - Audiovisual Deepfake Generation and Detection},
+pages = {7–15},
+numpages = {9},
+keywords = {datasets, deepfakaes, measurement, media forensics, multimodal},
+location = {Virtual Event, China},
+series = {ADGD '21}
+}
+
+@inproceedings{liu2018clips,
+author = {Liu, Chuanhe and Tang, Tianhao and Lv, Kui and Wang, Minghao},
+title = {Multi-Feature Based Emotion Recognition for Video Clips},
+year = {2018},
+isbn = {9781450356923},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3242969.3264989},
+doi = {10.1145/3242969.3264989},
+abstract = {In this paper, we present our latest progress in Emotion Recognition techniques, which combines acoustic features and facial features in both non-temporal and temporal mode. This paper presents the details of our techniques used in the Audio-Video Emotion Recognition subtask in the 2018 Emotion Recognition in the Wild (EmotiW) Challenge. After the multimodal results fusion, our final accuracy in Acted Facial Expression in Wild (AFEW) test dataset achieves 61.87\%, which is 1.53\% higher than the best results last year. Such improvements prove the effectiveness of our methods.},
+booktitle = {Proceedings of the 20th ACM International Conference on Multimodal Interaction},
+pages = {630–634},
+numpages = {5},
+keywords = {soundnet, lstm, inception net, emotiw 2018, emotion recognition, densenet, deep learning, 3d face landmark},
+location = {Boulder, CO, USA},
+series = {ICMI '18}
+}
+
+@misc{Chelehchaleh_Salehi_Farahbakhsh_Crespi_2024, 
+title={BRaG: a hybrid multi-feature framework for fake news detection on social media}, 
+volume={14},
+url={https://doi.org/10.1007/s13278-023-01185-7}, 
+DOI={10.1007/s13278-023-01185-7},
+number={5}, journal={Social Network Analysis and Mining}, author={Chelehchaleh, Razieh and Salehi, Mostafa and Farahbakhsh, Reza and Crespi, Noél}, year={2024}, month={Jan} }
+
+@misc{kaggleDeepVoice, 
+Title = {Kaggle: DeepFake Voice Recognition},
+url={https://www.kaggle.com/datasets/birdy654/deep-voice-deepfake-voice-recognition}, 
+journal={Kaggle}, 
+year={2023}, month={Aug} }
+
+@misc{kaggleDeepImages, 
+Title = {Kaggle: Deepfake and Real images},
+url={https://www.kaggle.com/datasets/manjilkarki/deepfake-and-real-images/code}, journal={Kaggle}, 
+year={2022},
+month={Feb} }
